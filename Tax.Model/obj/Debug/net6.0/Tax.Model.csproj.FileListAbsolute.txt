@@ -1,0 +1,12 @@
+C:\Code Repo\PaySpace\TaxCalculator\Tax.Model\bin\Debug\net6.0\Tax.Model.deps.json
+C:\Code Repo\PaySpace\TaxCalculator\Tax.Model\bin\Debug\net6.0\Tax.Model.dll
+C:\Code Repo\PaySpace\TaxCalculator\Tax.Model\bin\Debug\net6.0\Tax.Model.pdb
+C:\Code Repo\PaySpace\TaxCalculator\Tax.Model\obj\Debug\net6.0\Tax.Model.csproj.AssemblyReference.cache
+C:\Code Repo\PaySpace\TaxCalculator\Tax.Model\obj\Debug\net6.0\Tax.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code Repo\PaySpace\TaxCalculator\Tax.Model\obj\Debug\net6.0\Tax.Model.AssemblyInfoInputs.cache
+C:\Code Repo\PaySpace\TaxCalculator\Tax.Model\obj\Debug\net6.0\Tax.Model.AssemblyInfo.cs
+C:\Code Repo\PaySpace\TaxCalculator\Tax.Model\obj\Debug\net6.0\Tax.Model.csproj.CoreCompileInputs.cache
+C:\Code Repo\PaySpace\TaxCalculator\Tax.Model\obj\Debug\net6.0\Tax.Model.dll
+C:\Code Repo\PaySpace\TaxCalculator\Tax.Model\obj\Debug\net6.0\refint\Tax.Model.dll
+C:\Code Repo\PaySpace\TaxCalculator\Tax.Model\obj\Debug\net6.0\Tax.Model.pdb
+C:\Code Repo\PaySpace\TaxCalculator\Tax.Model\obj\Debug\net6.0\ref\Tax.Model.dll

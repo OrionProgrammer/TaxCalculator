@@ -1,0 +1,6 @@
+{
+  "Tax.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Code Repo\\PaySpace\\TaxCalculator\\Tax.API",
+  "Tax.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Code Repo\\PaySpace\\TaxCalculator\\Tax.Domain",
+  "Tax.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Code Repo\\PaySpace\\TaxCalculator\\Tax.Model",
+  "Tax.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Code Repo\\PaySpace\\TaxCalculator\\Tax.Repository"
+}

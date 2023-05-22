@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Tax.Model.TaxResultModel>
+
+
+@{
+    ViewData["Title"] = "History";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@*
+    My JQuery DataTables is not working as it should. It's displaying, but the functionality is not present.
+    Not going to spend time tp fix it. At least the records show. I normally have this working in 1 shot
+*@
+
+<table id="history" class="display" style="width:100%">
+
+    <thead>
+        <tr>
+            <th>Annual Income</th>
+            <th>Postal Code</th>
+            <th>Tax Amount</th>
+            <th>Date Time Requested</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var a in Model)
+            {
+                @Html.Raw("<tr>");
+
+                @Html.Raw("<td>");
+                @Html.Raw(string.Format("{0:C}", a.AnnualIncome));
+                @Html.Raw("</td>")
+
+                @Html.Raw("<td>");
+                @Html.Raw(a.PostalCode);
+                @Html.Raw("</td>");
+
+                @Html.Raw("<td>");
+                @Html.Raw(string.Format("{0:C}", a.Result));
+                @Html.Raw("</td>");
+
+                @Html.Raw("<td>");
+                @Html.Raw(a.DateTime);
+                @Html.Raw("</td>");
+
+                @Html.Raw("</tr>");
+            }
+
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Annual Income</th>
+            <th>Postal Code</th>
+            <th>Tax Amount</th>
+            <th>Date Time Requested</th>
+        </tr>
+    </tfoot>
+</table>
+
+<script>
+    $(document).ready(function () {
+        $('#history').DataTable();
+    });
+</script>
+
+<script src="~/js/jquery.datatables.js"></script>
