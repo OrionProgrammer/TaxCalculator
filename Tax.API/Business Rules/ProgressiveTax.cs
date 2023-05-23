@@ -25,7 +25,7 @@ public class ProgressiveTax : IProgressiveTax, ITaxBase
 
         foreach (var rate in Rate)
         {
-            if (income > rate.From)
+            if (income > rate.From - 1)
             {
                 var amountToTax = Math.Min(rate.To - rate.From, income - rate.From);
                 var tax = (amountToTax * rate.Percentage) / 100;
